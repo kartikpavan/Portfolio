@@ -18,6 +18,6 @@ code {
   li {
     @apply px-4;
     @apply cursor-pointer;
-    @apply text-xl;
+    @apply text-2xl;
   }
 }

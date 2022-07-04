@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import SocialIcons from "./SocialIcons";
 
 const Navbar = () => {
   const [showNav, setShowNav] = React.useState(true);
@@ -11,11 +12,11 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className="hidden md:flex ">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li className="hover:text-white  duration-150">Home</li>
+        <li className="hover:text-white  duration-150">About</li>
+        <li className="hover:text-white  duration-150">Skills</li>
+        <li className="hover:text-white  duration-150">Projects</li>
+        <li className="hover:text-white  duration-150">Contact</li>
       </ul>
 
       {/* hamburger */}
@@ -25,6 +26,7 @@ const Navbar = () => {
       >
         {showNav ? <FaBars size={24} /> : <FaTimes size={24} />}
       </div>
+
       {/* Mobile View  */}
       <div
         className={`${
@@ -41,6 +43,9 @@ const Navbar = () => {
           <li className="py-6 text-4xl">Contact</li>
         </ul>
       </div>
+
+      {/* social icons */}
+      <SocialIcons />
     </div>
   );
 };
