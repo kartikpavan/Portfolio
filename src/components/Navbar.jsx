@@ -6,7 +6,7 @@ const Navbar = () => {
   const [showNav, setShowNav] = React.useState(true);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-8">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-base-100">
       <div>
         <h1 className="text-3xl font-semibold">Kartik Pavan</h1>
       </div>
