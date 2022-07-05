@@ -4,35 +4,35 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Ubuntu Mono", monospace;
+	margin: 0;
+	padding: 0;
+	font-family: "Ubuntu Mono", monospace;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 @layer base {
-  li {
-    @apply px-4;
-    @apply cursor-pointer;
-    @apply text-2xl;
-  }
+	li {
+		@apply px-4;
+		@apply cursor-pointer;
+		@apply text-2xl;
+	}
 }
 
 .content-div {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
 }
 
 .content-div:hover {
-  background-image: linear-gradient(
-    to right,
-    rgba(112, 157, 255, 0.2),
-    hsla(242, 74%, 61%, 0)
-  ) !important;
+	background-image: linear-gradient(
+		to right,
+		rgba(112, 157, 255, 0),
+		hsla(242, 74%, 61%, 0)
+	) !important;
 }
