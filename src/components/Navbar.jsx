@@ -1,9 +1,14 @@
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import SocialIcons from "./SocialIcons";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [showNav, setShowNav] = React.useState(true);
+
+  const clickHandler = () => {
+    setShowNav(!showNav);
+  };
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-base-100">
@@ -12,18 +17,38 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className="hidden md:flex ">
-        <li className="hover:text-white  duration-150">Home</li>
-        <li className="hover:text-white  duration-150">About</li>
-        <li className="hover:text-white  duration-150">Skills</li>
-        <li className="hover:text-white  duration-150">Projects</li>
-        <li className="hover:text-white  duration-150">Contact</li>
+        <li className="hover:text-white  duration-150">
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="hover:text-white  duration-150">
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="hover:text-white  duration-150">
+          {" "}
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="hover:text-white  duration-150">
+          {" "}
+          <Link to="work" smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className="hover:text-white  duration-150">
+          {" "}
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* hamburger */}
-      <div
-        className="md:hidden z-10 cursor-pointer"
-        onClick={() => setShowNav(!showNav)}
-      >
+      <div className="md:hidden z-10 cursor-pointer" onClick={clickHandler}>
         {showNav ? <FaBars size={24} /> : <FaTimes size={24} />}
       </div>
 
@@ -36,11 +61,47 @@ const Navbar = () => {
         }`}
       >
         <ul>
-          <li className="py-6 text-4xl">Home</li>
-          <li className="py-6 text-4xl">About</li>
-          <li className="py-6 text-4xl">Skills</li>
-          <li className="py-6 text-4xl">Projects</li>
-          <li className="py-6 text-4xl">Contact</li>
+          <li className="py-6 text-4xl">
+            {" "}
+            <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link
+              onClick={clickHandler}
+              to="about"
+              smooth={true}
+              duration={500}
+            >
+              About
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link
+              onClick={clickHandler}
+              to="skills"
+              smooth={true}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link onClick={clickHandler} to="work" smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link
+              onClick={clickHandler}
+              to="contact"
+              smooth={true}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
 
