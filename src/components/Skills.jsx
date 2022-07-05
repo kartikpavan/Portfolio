@@ -6,7 +6,7 @@ import Typescript from "../assets/typescript.png";
 import Tailwindcss from "../assets/tailwindcss.png";
 import materialui from "../assets/materialui.png";
 import nodejs from "../assets/nodejs.png";
-import expressjs from "../assets/expressjs.png";
+import expressjs from "../assets/Expressjs.png";
 import mongodb from "../assets/mongodb.png";
 import firebase from "../assets/firebase.png";
 
