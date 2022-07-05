@@ -1,5 +1,7 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from "react-scroll";
+
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen">
@@ -19,7 +21,9 @@ const Home = () => {
         </p>
         <div>
           <button className="btn btn-accent text-xl my-2 px-4 flex gap-4">
-            View Work
+            <Link to="work" smooth={true} duration={500}>
+              View Work
+            </Link>
             <AiOutlineArrowRight />
           </button>
         </div>
