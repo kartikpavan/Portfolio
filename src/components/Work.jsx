@@ -2,7 +2,7 @@ import React from "react";
 import ExpertExpiditions from "../assets/expertExpiditions.png";
 import githubFinder from "../assets/githubFinder.png";
 import reactGym from "../assets/reactGym.png";
-import todo from "../assets/tailwindTodo.png";
+import netflixClone from "../assets/netflix-clone.png";
 import gallery from "../assets/gallery.png";
 
 const Work = () => {
@@ -117,17 +117,17 @@ const Work = () => {
 						</div>
 					</div>
 					<div
-						style={{ backgroundImage: `url(${todo})` }}
+						style={{ backgroundImage: `url(${netflixClone})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100 duration-1000">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								React-tailwind TODO
+								Netflix Clone
 							</span>
 							<div className="pt-8 text-center">
 								<a
-									href="https://github.com/kartikpavan/REACT_TODO"
+									href="https://github.com/kartikpavan/netflix-clone"
 									rel="noreferrer"
 									target="_blank"
 								>
@@ -136,7 +136,7 @@ const Work = () => {
 									</button>
 								</a>
 								<a
-									href="https://todo-list-tailwind-vdkp.netlify.app"
+									href="https://movieflix-eight.vercel.app/"
 									rel="noreferrer"
 									target="_blank"
 								>
