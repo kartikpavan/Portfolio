@@ -2,7 +2,7 @@ import React from "react";
 import ExpertExpiditions from "../assets/expertExpiditions.png";
 import githubFinder from "../assets/githubFinder.png";
 import reactGym from "../assets/reactGym.png";
-import netflixClone from "../assets/netflix-clone.png";
+import netflixClone from "../assets/netflixClone.png";
 import gallery from "../assets/gallery.png";
 
 const Work = () => {
