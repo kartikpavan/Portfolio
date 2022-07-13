@@ -4,19 +4,17 @@ import githubFinder from "../assets/githubFinder.png";
 import reactGym from "../assets/reactGym.png";
 import netflixClone from "../assets/netflixClone.png";
 import gallery from "../assets/gallery.png";
+import cryptoBin from "../assets/cryptoBin.png";
 
 const Work = () => {
 	return (
-		<div
-			name="work"
-			className="w-full md:h-screen text-gray-300 bg-[#0a192f] my-20"
-		>
+		<div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f] my-20">
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-				<div className="pb-8">
+				<div className="pb-2">
 					<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
 						Work
 					</p>
-					<p className="py-6">// Check out some of my recent work</p>
+					<p className="py-4">// Check out some of my recent work</p>
 				</div>
 
 				{/* Container */}
@@ -127,7 +125,7 @@ const Work = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a
-									href="https://github.com/kartikpavan/netflix-clone"
+									href="https://movieflix-eight.vercel.app/"
 									rel="noreferrer"
 									target="_blank"
 								>
@@ -136,7 +134,38 @@ const Work = () => {
 									</button>
 								</a>
 								<a
-									href="https://movieflix-eight.vercel.app/"
+									href="  https://github.com/kartikpavan/netflix-clone"
+									rel="noreferrer"
+									target="_blank"
+								>
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div
+						style={{ backgroundImage: `url(${cryptoBin})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover Effects */}
+						<div className="opacity-0 group-hover:opacity-100 duration-1000">
+							<span className="text-2xl font-bold text-white tracking-wider">
+								Netflix Clone
+							</span>
+							<div className="pt-8 text-center">
+								<a
+									href="https://crypto-bin.vercel.app/"
+									rel="noreferrer"
+									target="_blank"
+								>
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Demo
+									</button>
+								</a>
+								<a
+									href="  https://github.com/kartikpavan/CryptoBin"
 									rel="noreferrer"
 									target="_blank"
 								>

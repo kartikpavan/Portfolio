@@ -9,6 +9,8 @@ import nodejs from "../assets/nodejs.png";
 import expressjs from "../assets/Expressjs.png";
 import mongodb from "../assets/mongodb.png";
 import firebase from "../assets/firebase.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
 
 const Skills = () => {
 	return (
@@ -20,85 +22,60 @@ const Skills = () => {
 						Skills
 					</p>
 					<p className="py-4">
-						// These are the technologies and tools I've worked
-						with.
+						// These are the technologies and tools I've worked with.
 					</p>
 				</div>
 				<div className="w-full grid grid-cols-2 sm:grid-cols-5 text-center py-4 gap-8">
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img
-							src={Reactjs}
-							alt="react"
-							className="w-20 mx-auto"
-						/>
+						<img src={html} alt="html" className="w-20 mx-auto" />
+						<p className="my-2 text-lg">HTML</p>
+					</div>
+					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
+						<img src={css} alt="css" className="w-20 mx-auto" />
+						<p className="my-2 text-lg">CSS </p>
+					</div>
+					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
+						<img src={Reactjs} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">React</p>
 					</div>
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img
-							src={Nextjs}
-							alt="react"
-							className="w-20 mx-auto"
-						/>
+						<img src={Nextjs} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">Next Js</p>
 					</div>
-					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
+					{/* <div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
 						<img src={Redux} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">Redux</p>
-					</div>
+					</div> */}
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img
-							src={Tailwindcss}
-							alt="react"
-							className="w-20 mx-auto"
-						/>
+						<img src={Tailwindcss} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">Tailwind </p>
 					</div>
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img
-							src={materialui}
-							alt="react"
-							className="w-20 mx-auto"
-						/>
+						<img src={materialui} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">Material UI</p>
 					</div>
-					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
+					{/* <div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
 						<img
 							src={Typescript}
 							alt="react"
 							className="w-20 mx-auto"
 						/>
 						<p className="my-2 text-lg">Typescript</p>
-					</div>
+					</div> */}
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img
-							src={firebase}
-							alt="react"
-							className="w-20 mx-auto"
-						/>
+						<img src={firebase} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">Firebase</p>
 					</div>
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img
-							src={nodejs}
-							alt="react"
-							className="w-20 mx-auto"
-						/>
+						<img src={nodejs} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">Node Js</p>
 					</div>
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img
-							src={expressjs}
-							alt="react"
-							className="w-20 mx-auto"
-						/>
+						<img src={expressjs} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">Express Js</p>
 					</div>
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img
-							src={mongodb}
-							alt="react"
-							className="w-20 mx-auto"
-						/>
+						<img src={mongodb} alt="react" className="w-20 mx-auto" />
 						<p className="my-2 text-lg">MongoDb</p>
 					</div>
 				</div>
