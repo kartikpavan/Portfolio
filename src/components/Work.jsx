@@ -3,7 +3,7 @@ import ExpertExpiditions from "../assets/expertExpiditions.png";
 import githubFinder from "../assets/githubFinder.png";
 import reactGym from "../assets/reactGym.png";
 import netflixClone from "../assets/netflixClone.png";
-import gallery from "../assets/gallery.png";
+import mytube from "../assets/mytube.png";
 import cryptoBin from "../assets/cryptoBin.png";
 
 const Work = () => {
@@ -184,11 +184,11 @@ const Work = () => {
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100 duration-1000">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								React-tailwind Gallery
+								Mytube
 							</span>
 							<div className="pt-8 text-center">
 								<a
-									href="https://react-gallery-kappa.vercel.app/"
+									href="https://react-mytube.vercel.app/"
 									rel="noreferrer"
 									target="_blank"
 								>
@@ -197,7 +197,7 @@ const Work = () => {
 									</button>
 								</a>
 								<a
-									href="https://github.com/kartikpavan/REACT_gallery"
+									href="https://github.com/kartikpavan/React-MYTUBE"
 									rel="noreferrer"
 									target="_blank"
 								>
