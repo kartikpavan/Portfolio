@@ -51,8 +51,8 @@ const Skills = () => {
 						<p className="my-2 text-lg">Tailwind </p>
 					</div>
 					<div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
-						<img src={materialui} alt="react" className="w-20 mx-auto" />
-						<p className="my-2 text-lg">Material UI</p>
+						<img src={Redux} alt="react" className="w-20 mx-auto" />
+						<p className="my-2 text-lg">Redux Toolkit</p>
 					</div>
 					{/* <div className="shadow-xl  p-2 hover:scale-110 duration-500 flex flex-col items-center justify-between">
 						<img

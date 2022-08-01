@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-scroll";
-// import Typewriter from "typewriter-effect";
 import TypeWriterEffect from "react-typewriter-effect";
 
 const Home = () => {
@@ -11,12 +10,6 @@ const Home = () => {
 			<div className="max-w-[1000px] mx-auto h-full p-8 flex flex-col justify-center ">
 				<p className="text-accent text-lg">Hi, my name is </p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-					{/* 				
-					<Typewriter
-						onInit={(typewriter) => {
-							typewriter.typeString("Kartik Pavan").stop().start();
-						}}
-					/> */}
 					<TypeWriterEffect
 						startDelay={100}
 						cursorColor="#101729"
@@ -25,14 +18,6 @@ const Home = () => {
 					/>
 				</h1>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-					{/* <Typewriter
-						onInit={(typewriter) => {
-							typewriter
-								.pauseFor(3000)
-								.typeString("I'm a full Stack Developer")
-								.start();
-						}}
-					/> */}
 					<TypeWriterEffect
 						startDelay={1800}
 						cursorColor="#8993af"
@@ -46,12 +31,12 @@ const Home = () => {
 					responsive full stack web application.
 				</p>
 				<div>
-					<button className="btn btn-accent text-xl my-2 px-4 flex gap-4">
-						<Link to="work" smooth={true} duration={500}>
+					<Link to="work" smooth={true} duration={500}>
+						<button className="btn btn-accent text-xl my-2 px-4 flex gap-4">
 							View Work
-						</Link>
-						<AiOutlineArrowRight />
-					</button>
+							<AiOutlineArrowRight />
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>
