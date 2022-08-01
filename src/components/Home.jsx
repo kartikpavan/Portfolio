@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-scroll";
-import TypeWriterEffect from "react-typewriter-effect";
+// import TypeWriterEffect from "react-typewriter-effect";
 
 const Home = () => {
 	return (
@@ -10,20 +10,22 @@ const Home = () => {
 			<div className="max-w-[1000px] mx-auto h-full p-8 flex flex-col justify-center ">
 				<p className="text-accent text-lg">Hi, my name is </p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-					<TypeWriterEffect
+					{/* <TypeWriterEffect
 						startDelay={100}
 						cursorColor="#101729"
 						text="Kartik Pavan"
 						typeSpeed={100}
-					/>
+					/> */}
+					Kartik Pavan
 				</h1>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-					<TypeWriterEffect
+					{/* <TypeWriterEffect
 						startDelay={1800}
 						cursorColor="#8993af"
 						text="I'm a full Stack Developer"
 						typeSpeed={100}
-					/>
+					/> */}
+					I'm a full Stack Developer
 				</h1>
 				<p className="text-[#8892b0] max-w-[700px] py-4 ">
 					I'm a full-stack developer specializing in building &#40;and occassionaly
