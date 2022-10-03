@@ -2,7 +2,7 @@ import React from "react";
 import ExpertExpiditions from "../assets/expertExpiditions.png";
 import githubFinder from "../assets/githubFinder.png";
 import reactGym from "../assets/reactGym.png";
-import netflixClone from "../assets/netflixClone.png";
+import playwind from "../assets/playwind.png";
 import mytube from "../assets/mytube.png";
 import cryptoBin from "../assets/cryptoBin.png";
 
@@ -115,17 +115,17 @@ const Work = () => {
 						</div>
 					</div>
 					<div
-						style={{ backgroundImage: `url(${netflixClone})` }}
+						style={{ backgroundImage: `url(${playwind})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100 duration-1000">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								Netflix Clone
+								Playwind
 							</span>
 							<div className="pt-8 text-center">
 								<a
-									href="https://movieflix-eight.vercel.app/"
+									href="https://playwind.vercel.app/"
 									rel="noreferrer"
 									target="_blank"
 								>
@@ -134,7 +134,7 @@ const Work = () => {
 									</button>
 								</a>
 								<a
-									href="  https://github.com/kartikpavan/netflix-clone"
+									href="https://github.com/kartikpavan/Playwind.git"
 									rel="noreferrer"
 									target="_blank"
 								>
